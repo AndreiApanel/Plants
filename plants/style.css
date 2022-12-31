@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap');
 
-*,*:before,*:after {
+*, *:before, *:after {
 box-sizing: border-box;
 }
 
@@ -10,7 +10,39 @@ body {
 	font-family: 'Inter', sans-serif;
 }
 
-.header_main {
+.container {
+
 	width: 1440px;
 	margin: 0;
+}
+
+.header {
+	background-color: rgb(155, 152, 152);
+}
+
+.header__block {
+	width: 100px;
+	height:100px;
+	margin-left: 81px;
+	margin-top: 11px;
+}
+
+.header__logo {
+	align-items: center;
+}
+
+.header__wrapper {
+	height: 134px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav {
+
+}
+
+.nav__link {
+	color:white;
+	text-decoration: none;
 }
