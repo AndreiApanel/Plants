@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap');
+
+*,*:before,*:after {
+box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Inika', serif;
+	font-family: 'Inter', sans-serif;
+}
+
+.header_main {
+	width: 1440px;
+	margin: 0;
+}
