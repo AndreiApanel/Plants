@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,64 @@
 	<title>Plants</title>
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 	<header class="header">
-		<div class="header__wrapper">
-			<div class="header__block">
-				<a href="/" class="header__logo"><img src="img/logo.png" alt="logo">Plants</a>
+		<div class="wrapper">
+			<div class="header__wrapper">
+				<div class="header__logo">
+					<a href="/" class="header__logo-link"><img src="img/logo.png" alt="logo">Plants</a>
+				</div>
+				<!--/header__block-->
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Home</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!" class="nav__link">About us</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Service</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Price</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Contacts</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
-			<!--/header__block-->
-			<nav class="nav">
-				<a href="#" class="nav__link active">Home</a>
-				<a href="#" class="nav__link">About us</a>
-				<a href="#" class="nav__link">Service</a>
-				<a href="#" class="nav__link">Price</a>
-				<a href="#" class="nav__link">Contacts</a>
-			</nav>
 		</div>
-			<!-- /header__wrapper -->
-		</header>
-<section class="welcome">
-	<div class="welcome__wrapper">
-		<div class="welcome__img">
-			<a href="/" class="welcome__logo">
-				<img src="img/leafs.png" alt="leafs">
-			</a>
-		</div>
-		<div class="welcome__content">
-			<h1>We grow <span>plants</span> and give you oxygen</h1>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-		</div>
+	</header>
+	<!-- /header__wrapper -->
+	<div class="main">
+		<section class="welcome">
+			<div class="wrapper">
+				<div class="welcome__title">
+					<div class="welcome__img">
+						<a href="#">
+							<img src="img/leafs.png" alt="leafs">
+						</a>
+					</div>
+					<div class="welcome__content">
+						<h1>We grow <span>plants</span> and give you oxygen</h1>
+						<div class="welcome__text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s.</p>
+						</div>
+						<div class="welcome__button"><button class="btn_content">LEARN MORE</button>
+							<a href="#" class="link__button">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
-<!-- welcome__wrapper -->
-</section>
-<footer id="footer">
+	<!-- welcome__wrapper -->
+	<footer class="footer">
 </body>
+
 </html>
