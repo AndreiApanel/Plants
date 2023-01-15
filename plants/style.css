@@ -18,12 +18,14 @@ html {
 }
 
 body {
+	max-width: 1440px;
 	font-family: 'Inika', serif;
 	/* font-family: 'Inter', sans-serif; */
 	font-size: 16px;
 }
 
 .header {
+	max-width: 1440px;
 	background: #EDF2EC;
 	position: fixed;
 	top: 0;
@@ -96,8 +98,6 @@ body {
 	width: 100%;
 }
 
-.welcome {}
-
 .welcome__title {
 	margin-top: 134px;
 	margin-left: 109px;
@@ -122,8 +122,8 @@ body {
 }
 
 .welcome__maintext {
-	width: 549px;
-	height: 340px;
+	max-width: 549px;
+
 
 }
 
@@ -137,12 +137,12 @@ h1 {
 }
 
 h2 {
-	font-family: 'Inter';
+	font-family: 'Inika';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
-	color: #000000
+	font-size: 40px;
+	line-height: 52px;
+	color: #E06733;
 }
 
 span {
@@ -150,8 +150,7 @@ span {
 }
 
 .welcome__text {
-	width: 525px;
-	height: 105px;
+	max-width: 525px;
 }
 
 p {
@@ -164,23 +163,71 @@ p {
 }
 
 .welcome__button {
-	
 	max-width: 158px;
-	border: 2px solid #E06733;
-	border-radius: 10px;
 }
 
 .btn_content {
-display: flex;
-align-items: center;
-text-align: center;
-	max-width: 104px;
-	margin: 10px 23px;
+	border: 2px solid #E06733;
+	border-radius: 10px;
+	padding: 14px 27px;
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	/* line-height: 20px; */
+	line-height: 20px;
 	color: #000000;
-	border:none;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.btn_content:hover,
+.btn_content:focus,
+.btn_content:active {
+	border-radius: 20px; ;
+	background-color: #E06733;
+	color:#FFFFFF;
+	transition: 2s;
+}
+/* welcome end */
+/* about start */
+
+.about__content {
+	background: #FFFFFF;
+	width: 100%;
+}
+
+.about_section {
+	margin: 94px 109px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1222px;
+}
+
+.about__text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 605px;
+}
+
+.text__wrapper {
+	max-width: 463px;
+}
+
+.about__text p {
+	margin-top: 40px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #636060;
+}
+
+.about__img {
+	max-width: 464px;
+
 }
