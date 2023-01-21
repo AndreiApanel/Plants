@@ -183,15 +183,16 @@ p {
 .btn_content:hover,
 .btn_content:focus,
 .btn_content:active {
-	border-radius: 20px; ;
+	border-radius: 20px;
 	background-color: #E06733;
-	color:#FFFFFF;
+	color: #FFFFFF;
 	transition: 2s;
 }
+
 /* welcome end */
 /* about start */
 
-.about__content {
+.about {
 	background: #FFFFFF;
 	width: 100%;
 }
@@ -229,5 +230,81 @@ p {
 
 .about__img {
 	max-width: 464px;
+
+}
+
+/* about end */
+/* service start */
+
+.service {
+	background: #EDF2EC;
+	width: 100%;
+}
+
+.service__section {
+max-width: 1440px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+.service__content{
+max-width: 1007px;
+margin:40px 109px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+.service__text {
+	max-width: 306px;
+}
+
+.service__btns {
+	margin-left:105px;
+	max-width: 596px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.btn__item{
+margin-left: 38px;
+max-width: 161px;
+border: 1px solid #E06733;
+border-radius: 5px;
+padding: 12px 40px;
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color:#E06733;
+
+}
+
+.btn__item:last-child {
+margin-right: 0px;
+
+}
+
+.btn__item:hover,
+.btn__item:focus,
+.btn__item:active {
+	border-radius: 20px;
+	background-color: #E06733;
+	color: #FFFFFF;
+	transition: 2s;
+}
+
+.services__container {
+
+}
+
+.service__item {
+
 
 }
