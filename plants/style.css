@@ -25,12 +25,8 @@ body {
 }
 
 .header {
-	max-width: 1440px;
 	background: #EDF2EC;
-	top: 0;
-	left: 0;
 	width: 100%;
-	z-index: 100;
 }
 
 .wrapper {
@@ -94,14 +90,14 @@ body {
 /* main start */
 .main {
 	background: #EDF2EC;
+	max-width: 1440px;
 	width: 100%;
 }
 
 .welcome__title {
-	margin-top: 134px;
+	padding: 62px 0 62px 0;
 	margin-left: 109px;
-	max-width: 1221.8px;
-	/* height: 407.36px; */
+	max-width: 1222px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -111,19 +107,20 @@ body {
 .welcome__img {
 	max-width: 449px;
 }
+.welcome__img img {
+	max-width: 449px;
+	max-height: 407px;
+border-radius: 0px;
+
+}
 
 .welcome__content {
+	margin: 34px 0 34px 224px;
+	max-width: 549px;
+	height: 340px;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	width: 549px;
-	height: 340px;
-}
-
-.welcome__maintext {
-	max-width: 549px;
-
-
 }
 
 h1 {
