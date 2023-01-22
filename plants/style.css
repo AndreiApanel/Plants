@@ -27,7 +27,6 @@ body {
 .header {
 	max-width: 1440px;
 	background: #EDF2EC;
-	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -145,6 +144,16 @@ h2 {
 	color: #E06733;
 }
 
+h3 {
+	padding-top: 10px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+	color: #E06733;
+}
+
 span {
 	color: #499A18;
 }
@@ -242,19 +251,19 @@ p {
 }
 
 .service__section {
-max-width: 1440px;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
+	max-width: 1440px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 
 }
 
-.service__content{
-max-width: 1007px;
-margin:40px 109px;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
+.service__content {
+	max-width: 1007px;
+	margin: 40px 109px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 
 }
 
@@ -263,7 +272,7 @@ align-items: center;
 }
 
 .service__btns {
-	margin-left:105px;
+	margin-left: 105px;
 	max-width: 596px;
 	display: flex;
 	flex-wrap: wrap;
@@ -271,23 +280,23 @@ align-items: center;
 
 }
 
-.btn__item{
-margin-left: 38px;
-max-width: 161px;
-border: 1px solid #E06733;
-border-radius: 5px;
-padding: 12px 40px;
-font-family: 'Inika';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 26px;
-color:#E06733;
+.btn__item {
+	margin-left: 38px;
+	max-width: 161px;
+	border: 1px solid #E06733;
+	border-radius: 5px;
+	padding: 12px 40px;
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+	color: #E06733;
 
 }
 
 .btn__item:last-child {
-margin-right: 0px;
+	margin-right: 0px;
 
 }
 
@@ -301,10 +310,39 @@ margin-right: 0px;
 }
 
 .services__container {
+	max-width: 1222px;
+	margin: 81px 109px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
 
 }
 
 .service__item {
+	max-width: 330px;
+	text-align: center;
 
 
+}
+
+.service__item p {
+	padding-top: 10px;
+	margin-bottom:36px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #717171;
+}
+
+.service__item img {
+	vertical-align: middle;
+}
+
+.rectangle {
+	max-width: 330px;
+	border: 1px solid #E3E1D5;
+	border-radius: 0px 0px 20px 20px;
 }
