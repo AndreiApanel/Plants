@@ -426,7 +426,7 @@ p {
 
 .input__choice {
 	max-width: 250px;
-	display: flex;
+	a display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: 32px 41px 0 41px;
@@ -440,22 +440,22 @@ p {
 
 #choice1 {
 	margin-right: 40px;
-	background:transparent url(../plants/img/ellipce_input.svg)no-repeat;
-	border:0;
+	background: transparent url(../plants/img/ellipce_input.svg)no-repeat;
+	border: 0;
 	background-size: 16px;
 }
 
 #choice2 {
 	margin-right: 40px;
-	background:transparent url(../plants/img/ellipce_input.svg)no-repeat;
-	border:0;
+	background: transparent url(../plants/img/ellipce_input.svg)no-repeat;
+	border: 0;
 	background-size: 16px;
 }
 
 #choice3 {
 	margin-right: 40px;
-	background:transparent url(../plants/img/ellipce_input.svg)no-repeat;
-	border:0;
+	background: transparent url(../plants/img/ellipce_input.svg)no-repeat;
+	border: 0;
 	background-size: 16px;
 }
 
@@ -512,4 +512,76 @@ p {
 
 .prices__img {
 	max-width: 152px
+}
+
+/* prices end */
+/* contacts start */
+.contacts {
+	background: #EDF2EC;
+	width: 100%;
+}
+
+.contacts__section {
+	max-width: 1440px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.contact__woman {
+	margin: 53px 0 0 109px;
+	max-width: 400px;
+}
+
+.contact__woman img {
+	width: 400px;
+	height: 497px;
+}
+
+.contact__us {
+	margin: 60px 0 0 113px;
+}
+
+.contact__us h2 {
+
+	max-width: 195px;
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+}
+
+.contacts__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 148px 109px 0 64px;
+	width: 450px;
+	height: 50px;
+	background: #D6E7D2;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px;
+}
+
+.select__city {
+	padding: 0px 175px 0px 20px;
+	width: 204px;
+	height: 40px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0.05em;
+	color: #717171;
+}
+
+.select__city__value {
+	margin-right: 35px;
+	background: transparent url(..//plants/img/accordion_btn.svg) no-repeat right center;
+	background-size: 16px;
+	border: 0;
 }
