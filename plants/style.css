@@ -18,7 +18,8 @@ html {
 }
 
 body {
-	max-width: 1440px;
+	max-width:100%;
+	height:auto;
 	font-family: 'Inika', serif;
 	/* font-family: 'Inter', sans-serif; */
 	font-size: 16px;
@@ -90,7 +91,6 @@ body {
 /* main start */
 .main {
 	background: #EDF2EC;
-	max-width: 1440px;
 	width: 100%;
 }
 
@@ -250,7 +250,6 @@ p {
 
 .service__section {
 	max-width: 1440px;
-
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -355,3 +354,96 @@ p {
 
 /* service end */
 /* prices start */
+.prices {
+	background: #FFFFFF;
+	width: 100%;
+}
+
+.prices__section {
+	max-width: 1440px;
+
+}
+
+.praces__wrapper {
+	margin: 40px 109px 115px 109px;
+	max-width: 1222px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.prices__menu {
+	max-width: 332px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.prices__menu h2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	color: #000000;
+}
+
+.price__menu__options {
+	max-width: 332px;
+}
+
+.prices__contactus {
+	max-width: 452px;
+	display:flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.prices__text h2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: right;
+	color: #000000;
+}
+
+.prices__text h2 span {
+	color: #499A18;
+}
+
+.prices__btn {
+	margin:38px 0 39px 0;
+}
+
+.btn__pricecontacts {
+	padding:12px 34px 12px 30px;
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	color: #E06733;
+	border: 1px solid #E06733;
+	border-radius: 5px;
+	background-color:#FFFFFF;
+}
+
+.btn__pricecontacts:hover,
+.btn__pricecontacts:focus,
+.btn__pricecontacts:active {
+	border-radius: 20px;
+	background-color: #E06733;
+	color: #FFFFFF;
+	transition: 2s;
+}
+
+.prices__img {
+	max-width: 152px
+}
