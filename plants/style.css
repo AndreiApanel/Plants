@@ -18,8 +18,8 @@ html {
 }
 
 body {
-	max-width:100%;
-	height:auto;
+	max-width: 100%;
+	height: auto;
 	font-family: 'Inika', serif;
 	/* font-family: 'Inter', sans-serif; */
 	font-size: 16px;
@@ -376,8 +376,10 @@ p {
 .prices__menu {
 	max-width: 332px;
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .prices__menu h2 {
@@ -391,11 +393,75 @@ p {
 
 .price__menu__options {
 	max-width: 332px;
+	border: 1px solid #E3E1D5;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+.option__price {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+.field-group-label {
+	padding: 16px 110px 16px 40px;
+	max-width: 100px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+	color: #000000;
+	white-space: nowrap;
+}
+
+.input__choice {
+	max-width: 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 32px 41px 0 41px;
+	background: #EDF2EC;
+	border-radius: 20px;
+}
+
+.input__choice:last-child {
+	margin: 32px 41px 34px 41px
+}
+
+#choice1 {
+	margin-right: 40px;
+	background:transparent url(../plants/img/ellipce_input.svg)no-repeat;
+	border:0;
+	background-size: 16px;
+}
+
+#choice2 {
+	margin-right: 40px;
+	background:transparent url(../plants/img/ellipce_input.svg)no-repeat;
+	border:0;
+	background-size: 16px;
+}
+
+#choice3 {
+	margin-right: 40px;
+	background:transparent url(../plants/img/ellipce_input.svg)no-repeat;
+	border:0;
+	background-size: 16px;
 }
 
 .prices__contactus {
 	max-width: 452px;
-	display:flex;
+	display: flex;
 	justify-content: space-between;
 	align-content: space-between;
 	flex-direction: column;
@@ -418,11 +484,11 @@ p {
 }
 
 .prices__btn {
-	margin:38px 0 39px 0;
+	margin: 38px 0 39px 0;
 }
 
 .btn__pricecontacts {
-	padding:12px 34px 12px 30px;
+	padding: 12px 34px 12px 30px;
 	font-family: 'Inika';
 	font-style: normal;
 	font-weight: 700;
@@ -432,7 +498,7 @@ p {
 	color: #E06733;
 	border: 1px solid #E06733;
 	border-radius: 5px;
-	background-color:#FFFFFF;
+	background-color: #FFFFFF;
 }
 
 .btn__pricecontacts:hover,
